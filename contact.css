@@ -1,0 +1,93 @@
+body
+    {
+        background: lightblue;
+    }
+form
+{
+    width: 62%;
+    padding: 2% 4%;
+    font-family: "Tw Cen MT";
+    background: rgba(255,255,255,0.2);
+    position: absolute;
+    left: 15%;
+
+    /*align: center;*/
+    height: 680px;
+    /*margin: auto;*/
+    color:rgba(0,30,60,1);
+    font-size: 24px; 
+    padding: 2% 4%;
+    font-family: "Tw Cen MT";
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+form h1
+{
+    font-size: 34px;
+    color: rgba(0,30,60,1); 
+}
+
+input 
+{
+    width: 35%;
+    outline: none;
+    font-size: 20px;
+    font-family: "TW Cen MT";
+    padding: 4px 8px;
+    background: rgba(255,255,255,.4); 
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.2);
+    transition:ease-out .1s;
+}
+
+button
+{
+    padding: 2px 8px;
+    font-family: "TW Cen MT";
+    font-size: 24px;
+    border: none;
+    margin-top: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,.2);
+    background: rgba(255,255,255,.4);
+    transition: ease-out .1s;
+    border-radius: 2px;
+}
+
+button:hover
+{
+    box-shadow: 0 0 10px rgba(255,255,255,1); 
+    background: rgba(0,30,60,.3);
+    color: white;
+    cursor: pointer;
+}
+
+
+input:focus
+{
+    background: rgba(0,30,60,.3);
+    color: white;
+    box-shadow: 0 0 10px rgba(255,255,255,1); 
+}
+
+textarea
+{
+    width: 60%;
+    height: 200px;
+    border: none;
+    font-family: "Tw Cen MT";
+    font-size: 18px;
+    box-shadow: 0 0 6px rgba(0,0,0,.2);
+    background: rgba(255,255,255,.4); 
+    padding: 2px 2px;
+}
+
+textarea:focus
+{
+    box-shadow: 0 0 10px rgba(255,255,255,1); 
+    background: rgba(0,30,60,.3);
+    outline: transparent;
+    color: white;   
+}
